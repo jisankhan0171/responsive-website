@@ -1,0 +1,173 @@
+@media (max-width: 500px){
+	.container{
+		width: 100%;
+		padding: 0 20px;
+	}
+	/* ---- nav ----- */
+	nav .sign-up{
+	display: none;
+
+    }
+    .search-bar{
+  
+    	width: 70%;
+    }
+
+    .search-bar .search .search-btn{
+		
+		width: 100%;
+		display: block;
+		padding: 13px 20px;
+
+
+}
+	.search-bar .search .fas{
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	background: #ba2e1f;
+	padding: 7px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 13px;
+	cursor: pointer;
+	
+}
+/* --- logo ---- */
+.middel-nav nav{
+	flex-direction: column;
+	align-items: flex-start;
+}
+.middel-nav .logo{
+	
+	margin-bottom: 24px;
+
+}
+.socal-link a i.fa-linkedin-in{
+	margin-left: 0;
+}
+/* --- main nav ---- */
+
+.main-navbar nav{
+	background: var(--secondary);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 999;
+	padding: 0;
+	align-items: flex-start;
+	display: none;
+}
+
+.main-navbar nav .main-nav{
+	background: transparent;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 0 !important;
+	padding-top: 60px !important;
+
+}
+.main-navbar nav .main-nav li{
+	width: 100%;
+	padding-left: 20px;
+}
+.main-navbar nav .main-nav li a{
+	
+}
+.hamburger{
+	display: block;
+
+}
+.close{
+	display: block;
+}
+
+/* ----- middle nav ---------- */
+.socal-link{
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+.middel-nav nav{
+	padding-bottom: 0;
+}
+/* -------Header---------- */
+
+header .header-row .header-img{
+	flex-basis: 100%;
+	margin-bottom: 50px;
+}
+header .header-row .header-text{
+	flex-basis: 100%;
+
+}
+header img{
+	width: 100%;
+}
+header .header-row .header-text h1{
+	font-size: 40px;
+	margin-bottom: 30px;
+	line-height: 1.5;
+	
+}
+/* ----------main------------- */
+
+main .main-row .col{
+	flex-basis: 100%;
+	margin-bottom: 50px;
+}
+.box{
+	text-align: center;
+
+}
+.box .box-img{
+	flex: 100%;
+	margin-right: 0px;
+	margin-bottom: 30px;
+}
+.box img{
+	width: 40%;
+
+}
+
+.box .box-content{
+	flex: 100%;
+}
+
+/* ----------socal--------------- */
+
+.socal .socal-row .col{
+	flex-basis: 100%;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------ */
+}
